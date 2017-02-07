@@ -1,6 +1,7 @@
 # fluent-plugin-json-lookup
 
 [![Build Status](https://travis-ci.org/skuid/fluent-plugin-json-lookup.svg?branch=master)](https://travis-ci.org/skuid/fluent-plugin-json-lookup)
+[![Gem Version](https://badge.fury.io/rb/fluent-plugin-json-lookup.svg)](https://badge.fury.io/rb/fluent-plugin-json-lookup)
 
 Fluentd filter plugin for looking up json objects from messages.
 
