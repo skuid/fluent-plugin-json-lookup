@@ -1,4 +1,6 @@
-# Filter plugin for looking up json objects from messages.
+# fluent-plugin-json-lookup
+
+Fluentd filter plugin for looking up json objects from messages.
 
 ## Installation
 
@@ -32,8 +34,8 @@ then the emitted record would be:
 
 ```json
 {
-    "kubernetes_container_name": "nginx", 
-    "es_type": "nginx", 
+    "kubernetes_container_name": "nginx",
+    "es_type": "nginx",
     "es_index": "fluentd-nginx-"
 }
 ```
@@ -65,7 +67,7 @@ then the emitted record would be:
 {
     "kubernetes_container_name" : "arbitrary",
     "kubernetes_annotations_fluentd_org/keys" : "{\"nginx\": {\"es_type\": \"nginx\", \"es_index\": \"fluentd-nginx-\"}}",
-    "es_type": "nginx", 
+    "es_type": "nginx",
     "es_index": "fluentd-nginx-"
 }
 ```
