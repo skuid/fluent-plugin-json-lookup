@@ -1,0 +1,17 @@
+Metrics/LineLength:
+  Max: 120
+Documentation:
+  Enabled: false
+
+# Configuration parameters: CountComments.
+Metrics/ClassLength:
+  Max: 131
+
+# Configuration parameters: AllowHeredoc, AllowURI, URISchemes, IgnoreCopDirectives, IgnoredPatterns.
+# URISchemes: http, https
+Metrics/LineLength:
+  Max: 182
+
+# Configuration parameters: CountComments.
+Metrics/MethodLength:
+  Max: 29

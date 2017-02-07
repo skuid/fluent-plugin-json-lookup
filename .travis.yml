@@ -1,0 +1,23 @@
+language: ruby
+
+rvm:
+  - 2.2
+  - 2.3
+  - 2.4
+  - ruby-head
+
+gemfile:
+ - Gemfile
+ - Gemfile.v0.12
+
+matrix:
+  allow_failures:
+    - rvm: ruby-head
+
+before_install:
+- gem update bundler
+- gem install rubocop
+
+script:
+- rubocop
+- bundle exec rake test

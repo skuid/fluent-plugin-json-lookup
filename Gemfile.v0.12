@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+
+# Specify gem's dependencies in fluent-plugin-json-lookup.gemspec
+gem 'fluentd', '~> 0.12.0'
+
+gemspec
