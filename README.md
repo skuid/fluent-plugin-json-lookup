@@ -1,5 +1,7 @@
 # fluent-plugin-json-lookup
 
+[![Build Status](https://travis-ci.org/skuid/fluent-plugin-json-lookup.svg?branch=master)](https://travis-ci.org/skuid/fluent-plugin-json-lookup)
+
 Fluentd filter plugin for looking up json objects from messages.
 
 ## Installation
