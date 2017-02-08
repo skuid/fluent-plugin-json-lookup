@@ -2,7 +2,6 @@ require 'fluent/filter'
 require 'yajl'
 
 module Fluent
-  if defined?(Filter)
     class JsonLookupFilter < Filter
       Fluent::Plugin.register_filter('json_lookup', self)
 
@@ -81,5 +80,4 @@ using `lookup_key`'s value, rather than a hard-coded value.
         new_es
       end
     end
-  end
 end
