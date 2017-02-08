@@ -19,5 +19,5 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'fluentd', ['>= 0.10.58', '< 2']
   gem.add_runtime_dependency 'yajl-ruby', '~> 1.0'
   gem.add_development_dependency 'rake', '>= 0.9.2'
-  gem.add_development_dependency('test-unit', ['~> 3.1.4'])
+  gem.add_development_dependency('test-unit', ['~> 3.0'])
 end
