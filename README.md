@@ -5,6 +5,8 @@
 
 Fluentd filter plugin for looking up json objects from messages.
 
+For more in depth examples, see our post on Medium: <https://medium.com/@micahhausler/compose-your-infrastructure-dont-micromanage-it-5cb2062946c>
+
 ## Installation
 
 Use RubyGems:
