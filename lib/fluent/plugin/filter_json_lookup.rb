@@ -9,15 +9,15 @@ module Fluent
                  :string,
                  default: nil,
                  desc: <<-DESC
-The `lookup_key` is used in looking up the contents of the `json_key`.
+  The `lookup_key` is used in looking up the contents of the `json_key`.
     DESC
 
     config_param :use_lookup_key_value,
                  :bool,
                  default: true,
                  desc: <<-DESC
-When `use_lookup_key_value` is set to `true`, the plugin performs the lookup
-using `lookup_key`'s value, rather than a hard-coded value.
+  When `use_lookup_key_value` is set to `true`, the plugin performs the lookup
+  using `lookup_key`'s value, rather than a hard-coded value.
     DESC
 
     config_param :json_key,
@@ -30,10 +30,10 @@ using `lookup_key`'s value, rather than a hard-coded value.
                  default: false,
                  desc: 'Remove the `json_key` from each record. Defaults to false.'
 
-    BUILTIN_CONFIGURATIONS = %w(
+    BUILTIN_CONFIGURATIONS = %w[
       type @type log_level @log_level id @id lookup_key json_key
       use_lookup_key_value remove_json_key
-    ).freeze
+    ].freeze
 
     def configure(conf)
       super
